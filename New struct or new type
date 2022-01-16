@@ -1,0 +1,6 @@
+除了File->Load file ->Parse C header file可以方便的导入结构体和新类型之外，
+
+View->Open subviews->Local types也可以。
+
+
+在Local types里添加完之后,要右键Synchronize,分析完之后也可以export to header file
