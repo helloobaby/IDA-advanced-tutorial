@@ -1,0 +1,4 @@
+Edit->Segments->Rebase program
+
+
+将可执行文件换基地址,并且重定位
