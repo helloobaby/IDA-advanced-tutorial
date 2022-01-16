@@ -1,0 +1,3 @@
+Options->Basic block boundaries
+
+将一个函数在 Text View中,每一个基本块中用空行隔开,有时候看的会清楚一点
