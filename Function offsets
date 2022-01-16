@@ -1,0 +1,3 @@
+Option->General->Function offsets
+
+把左边的地址改为函数名+偏移的形式，这样在与windbg一起分析的时候,就不用Edit->Segments->Rebase program了
