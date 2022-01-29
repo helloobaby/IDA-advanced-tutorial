@@ -1,0 +1,5 @@
+IDA 生成函数html的时候,浏览器打开,中文会显示乱码,因为ida的默认字符集是iso 8859
+
+
+
+解决办法html的源码里charset改成utf-8或gbk
