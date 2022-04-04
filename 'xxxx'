@@ -1,0 +1,13 @@
+win内核中分配内存都会留一个叫tag的参数，用来标志这片内存的名字，一般是debug用的  
+比如'SdaV',就是VAD相关的内存。  
+
+
+但是IDA看的时候他就是一个整数,为了将这个单引号字符串变成数，可以用IDA 的python接口快速计算
+
+val = 0;
+for c in 'SdaV':
+	val = val + ord(c);
+	val = val << 8;
+print(hex(val>>8));
+
+然后ida ->Serach ->  imm value
